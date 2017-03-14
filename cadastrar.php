@@ -143,20 +143,20 @@ $usuario_id = mysql_insert_id();
 
 $headers = "MIME-Version: 1.0\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\n";
-$headers .= "From: Teu Domínio - Webmaster<email@teusite.com.br>";
+$headers .= "From: Teu Domínio - Webmaster<rwspatin@gmail.com>";
 
-$subject = "Confirmação de cadastro - teusite.com.br";
+$subject = "Confirmação de cadastro - localhost/consilium369";
 $mensagem = "Prezado {$nome} {$sobrenome},<br />
-Obrigado pelo seu cadastro em nosso site, <a href='http://www.teusite.com.br'>
-http://www.teusite.com.br</a>!<br /> <br />
+Obrigado pelo seu cadastro em nosso site, <a href='localhost/consilium369'>
+localhost/consilium369</a>!<br /> <br />
 
 Para confirmar seu cadastro e ativar sua conta em nosso site, podendo acessar à
 áreas exclusivas, por favor clique no link abaixo ou copie e cole na barra de
 endereço do seu navegador.<br /> <br />
 
-<a href='http://www.teusite.com.br/ativar.php?id={$usuario_id}&code={$senha}'>
+<a href='localhost/consilium369/ativar.php?id={$usuario_id}&code={$senha}'>
 
-http://www.teusite.com.br/ativar.php?id={$usuario_id}&code={$senha}
+localhost/consilium369/ativar.php?id={$usuario_id}&code={$senha}
 
 </a>
 

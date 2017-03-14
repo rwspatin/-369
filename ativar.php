@@ -33,7 +33,7 @@ echo "<strong>Sua conta não pode ser ativada!</strong>";
 echo "<strong>Seu cadastro foi ativado com sucesso!</strong><br />
 Você pode fazer o login logo abaixo!<br /><br />";
 
-include "formulario_login.html";
+include "localhost/consilium369/formulario_login.html";
 
 }
 
